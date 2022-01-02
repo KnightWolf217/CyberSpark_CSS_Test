@@ -1,0 +1,28 @@
+/*Begin here*/
+
+.btn {
+    text-align: center;
+    color: white;
+    border: none;
+    border-color: #00ABE7;
+    width: 200px;
+    height: 44px;
+    border-radius: 35px;
+    background: #00ABE7 0% 0% no-repeat padding-box;
+}
+
+.btn:hover {
+    background: #7FD5F3 0% 0% no-repeat padding-box;
+}
+
+.btn:focus {
+    border: 1px solid #0070B4;
+}
+
+.btn:active {
+    background: #0070B4 0% 0% no-repeat padding-box;
+}
+
+.btn:disabled {
+    background: #BFEAF9 0% 0% no-repeat padding-box;
+}
